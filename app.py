@@ -39,7 +39,7 @@ model = ResNet50(weights='imagenet')
 model_new = Model(model.input, model.layers[-2].output)
 
 train_features = load(open("Caption/encoded_train_images.pkl", "rb"))
-train_descriptions = load(open("caption/encoded_train_desc.pkl","rb"))
+train_descriptions = load(open("Caption/encoded_train_desc.pkl","rb"))
 
 all_train_captions = []
 for key, val in train_descriptions.items():
