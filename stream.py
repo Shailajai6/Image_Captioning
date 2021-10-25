@@ -80,8 +80,8 @@ if status == 'Upload Image':
             st.write("Just a second...")
             label = predict(image)
             st.write("Caption for above image is : ",label)
-            audio_file = open("text.mp3","rb").read()
-            st.audio(audio_file,format='audio/mp3')
+#             audio_file = open("text.mp3","rb").read()
+#             st.audio(audio_file,format='audio/mp3')
   
 else:
     st.success("Please Insert Web URL")
@@ -95,6 +95,6 @@ else:
         st.write("Just a second...")
         label = predict(image)
         st.write("Caption for above image is : ",label)
-        audio_file = open("text.mp3","rb").read()
-        st.audio(audio_file,format='audio/mp3')
+#         audio_file = open("text.mp3","rb").read()
+#         st.audio(audio_file,format='audio/mp3')
         
