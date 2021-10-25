@@ -88,7 +88,7 @@ from keras.applications.imagenet_utils import preprocess_input, decode_predictio
 from keras.models import load_model
 from keras.preprocessing import image
 # Model saved with Keras model.save()
-MODEL_PATH = 'caption/my_model_30'
+MODEL_PATH = 'Caption/my_model_30'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
